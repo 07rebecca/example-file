@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+body{
+    background-image: url(images/bg800bulbs.jpg);
+    font-family:"Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    font-size: larger;
+    }
+
+header {
+    background-color: rgb(212, 183, 138);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 10px 10px 0px 0px;
+}
+
+nav a {
+    text-decoration: none;
+    margin-right: 1rem;
+    color: rgb(56, 44, 44);
+    font-size: 1.5rem;
+}
+
+.heroimage {
+    width: 100%;
+}
+/* adding in a class of hero image allows the responsive postion for any device*/
+
+h1 {
+    font-size: 2rem;
+    border-bottom: double black;
+    margin-bottom: 0.6rem;
+}
+
+h2 { 
+    font-size: 1rem;
+    margin-top: 8rem;
+    margin-bottom: 0.6rem;
+    border-bottom: 1px dotted black;
+}
+
+p {
+    line-height: 1.4;
+}
+main{
+    background-color: rgb(212, 183, 138);
+    padding: 1rem;
+}
+.wrapper {
+    max-width: 50vw;
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 10px rgb(110, 46, 3);
+    
+/*the wrapper positions the whole content on the page. When you apply elements they apply to the whole and not sections*/
+}
+
+.floatright {
+    float: right;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+.floatleft {
+    float: left;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: bisque;
+    padding: 2rem;
+    border-radius: 0px 0px 10px 10px;
+}
+
+footer p {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.b2t {
+    background-color:rgb(178, 196, 216);
+    color: black;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 16px;
+    display: block;
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 8px brown;
+}
+/* class elements need a . before the name*/
+
+.divider {
+    clear: both;
+    height:1rem;
+}
+
+.testimonials {
+    color: rgb(49, 50, 51);
+    margin: 10px 0;
+    text-align: center;
+    float: left;
+    width: 90%;
+    margin: 1rem;
+    padding: 2rem;
+    background-color: rgb(178, 196, 216);
+    border-radius: 16px;
+    box-shadow: 0px 0px 4px brown;
+}
